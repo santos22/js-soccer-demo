@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Build your own lineup!</title>
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="js/fabric.js"></script>
+		<script src="https://cdn.jsdelivr.net/interact.js/1.2.4/interact.min.js"></script>
+		<script src="js/playerInfo.js"></script>
+		<script src="js/field.js"></script>
+		<script src="js/index.js"></script>
+
+		<div class = "center-button">
+			<button id='add-player'>Add player</button>
+			<button id='remove-object'>Remove player</button>
+			<button id='tactics'>Draw tactics mode</button>
+			<button id='select'>Move players mode</button>
+			<button id='change-color'>Change Player Colors</button>
+		</div>
+
+		<div class ="center-button">
+			<select id="color">
+				<option>red</option>
+			    <option>blue</option>
+			    <option>yellow</option>
+			    <option>black</option>
+			    <option>white</option>
+			    <option>orange</option>
+			    <option>brown</option>
+			    <option>pink</option>
+			    <option>gray</option>
+			</select>
+		</div>
+
+	</head>
+
+	<body style="background-color: lightgrey">
+		<div class ="center-text">
+			<p>Hold down SHIFT to select player and corresponding name to move together.</p>
+		</div>
+		<div id="canvas-container">
+			<canvas id="canvas" width="720" height="1150"></canvas>
+		</div>
+		
+		<!-- <a id="download" href="">Download as image</a> -->
+	</body>
+</html>
