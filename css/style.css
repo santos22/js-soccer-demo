@@ -9,9 +9,8 @@
 	text-align: center;
 }
 
-.center-text {
+.center-tag {
 	text-align: center;
-	border:1px solid #000000;
 }
 
 .myButton {
@@ -36,3 +35,26 @@
 	position:relative;
 	top:1px;
 }
+
+.styled select {
+   background: transparent;
+   width: 150px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px; 
+} 
+
+.styled{
+   margin: 0px;
+   width: 120px;
+   height: 34px;
+   border: 1px solid #111;
+   border-radius: 3px;
+   overflow: hidden;
+   background: url(http://bit.ly/1OMvxyY) 96% / 20% no-repeat #ddd;
+}
+
+
+/*http://stackoverflow.com/questions/1895476/how-to-style-a-select-dropdown-with-css-only-without-javascript*/
+
+/*http://www.bestcssbuttongenerator.com/*/
