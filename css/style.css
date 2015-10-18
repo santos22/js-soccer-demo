@@ -7,10 +7,32 @@
 
 .center-button {
 	text-align: center;
-	border:1px solid #000000;
 }
 
 .center-text {
 	text-align: center;
 	border:1px solid #000000;
+}
+
+.myButton {
+	background-color:#785f94;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #785f94;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#38363d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
