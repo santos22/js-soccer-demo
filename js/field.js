@@ -9,14 +9,6 @@ function draw() {
 		oImg.setAngle(90);
 		canvas.add(oImg);
 		canvas.centerObject(oImg);
-		//oImg.lockMovementX = true;
-		//oImg.lockMovementY = true;
-
-		// canvas.add(oImg);
-		// canvas.centerObject(oImg);
-		// canvas.renderAll();
-		// rotateThisImage = oImg;
-		// rotateThisImage.setAngle(90);
 
 
 		canvas.renderAll();
@@ -246,36 +238,7 @@ function draw() {
     });
 }
 
-// window.onload = function() {
-//   draw();
-// };
-
 document.addEventListener("DOMContentLoaded", function() {
   draw();
   //window.location.href=canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 });
-
-// var backgroundColor = $('background-color');
-
-// backgroundColor.onchange = function() {         
-//             canvas.getActiveObject().set("blue", this.value);
-//             canvas.renderAll();
-//         };
-
-// function isCanvasBlank(canvas) {
-//     var blank = document.createElement('canvas');
-//     blank.width = canvas.width;
-//     blank.height = canvas.width;
-
-//     return canvas.toDataURL() == blank.toDataURL();
-// }
-
-// document.getElementById('save').addEventListener('click',function(){
-// 	var blank = isCanvasBlank(document.getElementById('canvas'));
-    
-//     if(blank) {
-//         alert('blank!');   
-//     }
-//     else
-//     	alert('NOT');
-// });
