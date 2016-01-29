@@ -3,7 +3,7 @@ var rotateThisImage;
 function draw() {
 	var canvas = new fabric.Canvas('canvas');
 
-	var test = fabric.Image.fromURL("http://www.clker.com/cliparts/a/v/l/j/s/Q/soccer-field.svg", function(oImg) {
+	var test = fabric.Image.fromURL("http://imgh.us/soccer_field.svg", function(oImg) {
 		// rotation of SVG soccer field
 		oImg.set('selectable', false);
 		oImg.setAngle(90);
